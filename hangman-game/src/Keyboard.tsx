@@ -41,7 +41,7 @@ export function Keyboard({
   disabled = false,
 }: KeyboardProps) {
   return (
-    <div className="grid xl:pl-[568px] max-w-screen-xl gap-[1rem] grid-cols-auto items-center justify-center">
+    <div className="grid max-w-screen-xl gap-[1rem] grid-cols-auto items-center justify-center">
       {KEYS.map((key) => {
         const isActive = activeLetters.includes(key);
         const isInactive = inactiveLetters.includes(key);
