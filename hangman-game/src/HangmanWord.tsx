@@ -11,7 +11,7 @@ type HangmanWordProps = {
   }: HangmanWordProps) {
     return (
       <div
-        className="flex gap-[0.25em] font-bold uppercase text-[6rem] font-mono"
+        className="flex gap-[0.25em] font-bold uppercase text-[4rem] font-mono"
       >
         {wordToGuess.split("").map((letter, index) => (
           <span className= "border-b-[solid] border-b-black border-b-[0.1em]" 
