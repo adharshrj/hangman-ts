@@ -65,7 +65,7 @@ function App() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-[2rem] mt-0 mx-5 items-center justify-center">
+    <div className="flex flex-col gap-[2rem] mt-0 mx-5 items-center justify-center p-32">
       <div className="text-center">
         {isWinner && <div className="font-extrabold text-[green]">"Winner! - Refresh to try again"</div>}
         {isLoser && <div className="font-extrabold text-[red]">"Nice Try - Refresh to try again"</div>}
